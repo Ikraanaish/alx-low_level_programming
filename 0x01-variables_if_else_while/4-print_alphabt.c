@@ -11,9 +11,9 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != 'e' && c != 'q')
-			putcher("c");
+			putchar("c");
 	}
-	putcher('\n');
+	putchar('\n');
 
-	Return(0);
+	return(0);
 }
