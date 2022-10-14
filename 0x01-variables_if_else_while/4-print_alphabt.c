@@ -6,12 +6,14 @@
  */
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'e' && c!='q')
+		if (c != 'e' && c != 'q')
 			putcher("c");
 	}
 	putcher('\n');
 
-	Return (0);
+	Return(0);
 }
