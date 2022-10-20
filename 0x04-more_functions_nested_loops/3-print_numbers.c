@@ -6,8 +6,12 @@
  */
 void print_numbers(void)
 {
-	char i[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	int i;
 
-	_putchar('i');
+	for (i = 0; i < 10; i++)
+	{
+		_putchar('i');
+	}
+
 	_putchar('\n');
 }
