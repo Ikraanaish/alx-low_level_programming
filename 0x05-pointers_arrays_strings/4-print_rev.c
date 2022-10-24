@@ -8,8 +8,12 @@
  */
 void print_rev(char *s)
 {
-	if (*s != '\0')
+	int i = 0;
+
+	while (*s != '\0')
 	{
+		i++;
 		print_rev(s + 1);
+		_putchar(s[i]);
 	}
 }
