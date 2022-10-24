@@ -6,5 +6,14 @@
  */
 void rev_string(char *s)
 {
-	print_rev(s + 1);
+	int i = 0;
+
+	while (s[i])
+	{
+		i++;
+	}
+	while (i--)
+	{
+		_putchar(s[i]);
+	}
 }
