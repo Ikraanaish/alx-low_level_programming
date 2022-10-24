@@ -8,9 +8,10 @@
 void reset_to_98(int *n)
 {
 	int i = 0;
-	int *n = &i;
+	int *p;
+	*p = &i;
 
-	*n = 98;
+	*p = 98;
 
 	{
 		_putchar(*n);
