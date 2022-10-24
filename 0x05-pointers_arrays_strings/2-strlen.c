@@ -10,6 +10,10 @@ int _strlen(char *s)
 	int len;
 
 	len = *s;
-	
-	return (len);
+	if (*s != '\0')
+	{
+		_putchar(len);
+	}
+
+	return (0);
 }
