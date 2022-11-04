@@ -1,1 +1,1 @@
-static libraries
+this is a directory about static libraries
