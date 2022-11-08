@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include "main.h"
 /**
- * _strup - function to return pointer
+ * _strdup - function to return pointer
  * @str: string
  * Return: NULL
  */
